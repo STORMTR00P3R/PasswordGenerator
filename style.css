@@ -1,5 +1,47 @@
 html {
-    height: 100%;
-    width: 100%;
-  }
-  
+    padding: 5% 10%;
+    background: #c7ecee;
+    color: #333;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+label {
+    margin-left: 5%;
+}
+
+select {
+    border: 2px solid #333;
+    background-color: #c7ecee;
+    color: #333;
+    padding: 10px;
+}
+
+button {
+    margin-top: 40px;
+    border: 2px solid #333;
+    background-color: #c7ecee;
+    color: #333;
+    font-size: 1.2em;
+    padding: 0px 10px;
+    height: 52px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #333;
+    color: #c7ecee;
+}
+
+h1 {
+    background-color: #333;
+    color: #c7ecee;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+#passwordList, li {
+    text-align: center;
+    font-size: 1.4em;
+    line-height: 2.0;
+    list-style-position: inside;
+}
